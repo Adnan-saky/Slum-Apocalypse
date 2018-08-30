@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Background.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Hero.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Variables.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Zombie.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bitmap_loader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="glaux.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="glut.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="iGraphics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="iDrawFunc.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Score.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlKeys.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="iMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Zombie\Zombie1_1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Zombie\Zombie1_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Zombie\Zombie1_3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Zombie\Zombie1_4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Zombie\Zombie2_1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Zombie\Zombie2_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Zombie\Zombie2_3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Zombie\Zombie2_4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Zombie\Zombie3_1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Zombie\Zombie3_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Zombie\Zombie3_3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Zombie\Zombie3_4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Zombie\Zombie4_1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Zombie\Zombie4_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Zombie\Zombie4_3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Zombie\Zombie4_4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Zombie\ZombieBossAttack1.PNG">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Zombie\ZombieBossAttack2.PNG">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Zombie\ZombieBossWalk1.PNG">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Zombie\ZombieBossWalk2.PNG">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Zombie\ZombieBossWalk3.PNG">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Zombie\ZombieDead.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Hero\Dead1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Hero\Dead2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Hero\Dead3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Hero\Jump1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Hero\Jump2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Hero\Jump3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Hero\Jump4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Hero\Laser1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Hero\Laser2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Hero\LaserBeam.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Hero\Punch1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Hero\Punch2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Hero\Stand.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Hero\Walk1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Hero\Walk2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Hero\Walk3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Hero\Walk4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Hero\Walk5.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Hero\Walk6.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Background\Middle1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Background\Middle2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Background\Road.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Background\Sky.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

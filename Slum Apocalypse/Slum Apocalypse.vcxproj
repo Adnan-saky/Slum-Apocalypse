@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{02EDCA70-6227-472A-8A01-74E0D484C6CA}</ProjectGuid>
+    <RootNamespace>SlumApocalypse</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Background.h" />
+    <ClInclude Include="bitmap_loader.h" />
+    <ClInclude Include="ControlKeys.h" />
+    <ClInclude Include="glaux.h" />
+    <ClInclude Include="glut.h" />
+    <ClInclude Include="Hero.h" />
+    <ClInclude Include="iDrawFunc.h" />
+    <ClInclude Include="iGraphics.h" />
+    <ClInclude Include="Menu.h" />
+    <ClInclude Include="Score.h" />
+    <ClInclude Include="stb_image.h" />
+    <ClInclude Include="Variables.h" />
+    <ClInclude Include="Zombie.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="iMain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Background\Middle1.png" />
+    <Image Include="Background\Middle2.png" />
+    <Image Include="Background\Road.png" />
+    <Image Include="Background\Sky.png" />
+    <Image Include="Hero\Dead1.png" />
+    <Image Include="Hero\Dead2.png" />
+    <Image Include="Hero\Dead3.png" />
+    <Image Include="Hero\Jump1.png" />
+    <Image Include="Hero\Jump2.png" />
+    <Image Include="Hero\Jump3.png" />
+    <Image Include="Hero\Jump4.png" />
+    <Image Include="Hero\Laser1.png" />
+    <Image Include="Hero\Laser2.png" />
+    <Image Include="Hero\LaserBeam.png" />
+    <Image Include="Hero\Punch1.png" />
+    <Image Include="Hero\Punch2.png" />
+    <Image Include="Hero\Stand.png" />
+    <Image Include="Hero\Walk1.png" />
+    <Image Include="Hero\Walk2.png" />
+    <Image Include="Hero\Walk3.png" />
+    <Image Include="Hero\Walk4.png" />
+    <Image Include="Hero\Walk5.png" />
+    <Image Include="Hero\Walk6.png" />
+    <Image Include="Zombie\Zombie1_1.png" />
+    <Image Include="Zombie\Zombie1_2.png" />
+    <Image Include="Zombie\Zombie1_3.png" />
+    <Image Include="Zombie\Zombie1_4.png" />
+    <Image Include="Zombie\Zombie2_1.png" />
+    <Image Include="Zombie\Zombie2_2.png" />
+    <Image Include="Zombie\Zombie2_3.png" />
+    <Image Include="Zombie\Zombie2_4.png" />
+    <Image Include="Zombie\Zombie3_1.png" />
+    <Image Include="Zombie\Zombie3_2.png" />
+    <Image Include="Zombie\Zombie3_3.png" />
+    <Image Include="Zombie\Zombie3_4.png" />
+    <Image Include="Zombie\Zombie4_1.png" />
+    <Image Include="Zombie\Zombie4_2.png" />
+    <Image Include="Zombie\Zombie4_3.png" />
+    <Image Include="Zombie\Zombie4_4.png" />
+    <Image Include="Zombie\ZombieBossAttack1.PNG" />
+    <Image Include="Zombie\ZombieBossAttack2.PNG" />
+    <Image Include="Zombie\ZombieBossWalk1.PNG" />
+    <Image Include="Zombie\ZombieBossWalk2.PNG" />
+    <Image Include="Zombie\ZombieBossWalk3.PNG" />
+    <Image Include="Zombie\ZombieDead.png" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
